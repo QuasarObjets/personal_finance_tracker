@@ -1,0 +1,22 @@
+{
+  "name": "gestion-finanzas-api",
+  "version": "1.0.0",
+  "description": "Una aplicación para rastrear gastos personales, establecer presupuestos y gestionar las finanzas de manera eficiente.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^6.0.12"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "gestion",
+    "finanzas",
+    "gastos",
+    "presupuestos"
+  ],
+  "author": "",
+  "license": "ISC"
+}
