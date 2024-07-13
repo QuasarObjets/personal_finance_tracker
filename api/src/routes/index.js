@@ -1,17 +1,13 @@
-// /gestion-finanzas/api/src/routes/index.js
+// /gestion-gastos-personales/api/src/routes/index.js
 
 const express = require('express');
 const router = express.Router();
-const GastosController = require('../controllers/gastosController');
+const gastosController = require('../controllers/gastosController');
 
-// Create a new instance of the GastosController
-const gastosController = new GastosController();
+// Ruta para obtener todos los gastos
+router.get('/gastos', gastosController.obtenerGastos);
 
-// Define routes for managing expenses
-router.get('/gastos', gastosController.getAllGastos);
-router.get('/gastos/:id', gastosController.getGastoById);
-router.post('/gastos', gastosController.createGasto);
-router.put('/gastos/:id', gastosController.updateGasto);
-router.delete('/gastos/:id', gastosController.deleteGasto);
+// Ruta para crear un nuevo gasto
+router.post('/gastos', gastosController.crearGasto);
 
 module.exports = router;

@@ -1,6 +1,6 @@
-# FinWise - Gestión de Gastos Personales - Aplicación Móvil
+# Aplicación móvil para rastrear gastos personales
 
-Este proyecto consiste en una aplicación móvil para rastrear gastos personales, establecer presupuestos y gestionar las finanzas de manera eficiente. Está desarrollado utilizando el stack MERN (MongoDB, Express, React, Node) y React Native.
+Esta aplicación móvil te permite rastrear tus gastos personales, establecer presupuestos y gestionar tus finanzas de manera eficiente.
 
 ## Estructura de archivos
 
@@ -30,4 +30,4 @@ En la raíz del proyecto:
 - `.gitignore`: Este archivo especifica los archivos y carpetas que deben ser ignorados por Git durante el control de versiones.
 ```
 
-Recuerda que cada subcarpeta del proyecto debe tener su propio archivo `README.md` con la documentación correspondiente.
+Recuerda que debes crear los archivos README.md en cada subcarpeta del proyecto con la documentación correspondiente.

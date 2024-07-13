@@ -1,20 +1,10 @@
-// /gestion-finanzas/api/src/app.js
+// /gestion-gastos-personales/api/src/app.js
 
 const express = require('express');
 const app = express();
-const bodyParser = require('body-parser');
 const routes = require('./routes');
 
-// Middleware
-app.use(bodyParser.json());
-
-// Set up routes
-routes.setRoutes(app);
-
-// Start the server
-const port = process.env.PORT || 3000;
-app.listen(port, () => {
-  console.log(`Server is running on port ${port}`);
-});
+app.use(express.json());
+app.use('/api', routes);
 
 module.exports = app;

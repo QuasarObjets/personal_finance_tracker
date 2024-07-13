@@ -1,9 +1,9 @@
-// File: gestion-finanzas/api/src/models/gastoModel.js
+// File: gestion-gastos-personales/api/src/models/gastoModel.js
 
 const mongoose = require('mongoose');
 
 const gastoSchema = new mongoose.Schema({
-  concepto: {
+  descripcion: {
     type: String,
     required: true
   },
