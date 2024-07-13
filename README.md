@@ -1,4 +1,4 @@
-# Gestion Finanzas - Aplicación Web
+# FinWise - Gestión Finanzas Personales - Aplicación Web/Móvil
 
 Esta es una aplicación para rastrear gastos personales, establecer presupuestos y gestionar las finanzas de manera eficiente. La aplicación está diseñada para ser utilizada en la web y también está disponible en dispositivos móviles utilizando React Native.
 
